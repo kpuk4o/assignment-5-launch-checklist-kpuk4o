@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
    text-align: center;
 }
 
@@ -50,4 +50,79 @@ button {
    width: 25%;
    height: 30px;
    margin: 10px 0;
-}
+} */
+
+
+
+
+
+
+
+
+
+body {
+   background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top
+     center;
+ }
+ 
+ h1 {
+   text-align: center;
+   color: gold;
+ }
+ 
+ h2 {
+   text-align: center;
+   color: gold;
+ }
+ 
+ div {
+   text-align: left;
+ }
+ 
+ #faultyItems {
+   visibility: hidden;
+   color: gold;
+ }
+ 
+ #launchForm {
+   background-color: purple;
+   color: gold;
+   text-align: center;
+   margin: auto;
+   width: 25%;
+   border: 3px dashed gold;
+   padding: 10px;
+ }
+ 
+ #launchStatusCheck {
+   background-color: purple;
+   text-align: center;
+   margin: 50px auto;
+   width: 50%;
+   border: 3px dashed gold;
+   padding: 10px;
+ }
+ 
+ #missionTarget img {
+   max-width: 40%;
+   max-height: 250px;
+ }
+ 
+ #missionTarget {
+   background-color: purple;
+   text-align: center;
+   margin: 50px auto;
+   width: 50%;
+   border: 3px dashed gold;
+   padding: 10px;
+ }
+ 
+ button {
+   background-color: gold;
+   border: none;
+   color: purple;
+   border-radius: 8px;
+   width: 25%;
+   height: 30px;
+   margin: 10px 0;
+ }

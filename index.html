@@ -44,19 +44,18 @@
 </html> --> -->
 
 
-
-
-
-
 <!DOCTYPE>
 <html>
     <head>
         <title>Launch Checklist</title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
-        </head>
+        <script src = "script.js"></script>
+    </head>
     <body>
         <h1>Launch Checklist Form</h1>
         <div id="missionTarget">
+            <h2>Mission Destination</h2>
+            <!-- Fetch some planetary data -->
         </div> 
         <div id="launchForm">
             <form>
@@ -70,7 +69,7 @@
                     <label>Fuel Level (L) <input type="text" name="fuelLevel" id="fuelLevel"/></label> 
                 </div>
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
-                    <label>Cargo Mass (kg) <input type="text" name="cargoMass" id="cargoMass"/></label>
+                    <label>Cargo Mass (kg) <input type="text" name="cargoMass" id = "cargoMass"/></label>
                 </div>
                 <button id="formSubmit">Submit</button>
             </form>
@@ -87,5 +86,4 @@
             </div>
         </div>    
     </body>
-    <script src = "script.js"></script>
 </html>

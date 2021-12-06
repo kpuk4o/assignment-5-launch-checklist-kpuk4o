@@ -1,49 +1,3 @@
-<!-- <!DOCTYPE>
-<html>
-    <head>
-        <title>Launch Checklist</title>
-        <link rel = "stylesheet" type = "text/css" href = "styles.css" />
-        <script src = "scriptHelper.js"></script>
-        <script src = "script.js"></script>
-        <script src = "bundle.js"></script>
-    </head>
-    <body>
-        <h1>Launch Checklist Form</h1>
-        <div id="missionTarget" data-testid="missionTarget">
-            <!-- Fetch some planetary data -->
-        <!-- </div>  
-        <div id="launchForm">
-            <form data-testid="testForm">
-                <div class="formField">
-                    <label>Pilot Name <input type="text" name="pilotName" id="pilotName"/></label>
-                </div>
-                <div class="formField">
-                    <label>Co-pilot Name <input type="text" name="copilotName"/></label>
-                </div>
-                <div class="formField">
-                    <label>Fuel Level (L) <input type="text" name="fuelLevel"/></label> 
-                </div>
-                <div class="formField">
-                    <label>Cargo Mass (kg) <input type="text" name="cargoMass"/></label>
-                </div>
-                <button id="formSubmit">Submit</button>
-            </form>
-        </div>
-        <div id="launchStatusCheck">
-            <h2 id="launchStatus" data-testid="launchStatus">Awaiting Information Before Launch</h2>
-            <div  id="faultyItems" data-testid="faultyItems">
-                <ol>
-                    <li id="pilotStatus" data-testid="pilotStatus">Pilot Ready</li>
-                    <li id="copilotStatus" data-testid="copilotStatus">Co-pilot Ready</li>
-                    <li id="fuelStatus" data-testid="fuelStatus">Fuel level high enough for launch</li>
-                    <li id="cargoStatus" data-testid="cargoStatus">Cargo mass low enough for launch</li>
-                </ol>
-            </div>
-        </div>
-    </body>
-</html> --> -->
-
-
 <!DOCTYPE>
 <html>
     <head>
@@ -54,29 +8,31 @@
     <body>
         <h1>Launch Checklist Form</h1>
         <div id="missionTarget">
-            <h2>Mission Destination</h2>
             <!-- Fetch some planetary data -->
         </div> 
+
         <div id="launchForm">
             <form>
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
-                    <label>Pilot Name <input type="text" name="pilotName" id="pilotName"/></label>
+                    <label>Pilot Name <input type="text" name="pilotName" id="pilotName" /></label>
                 </div>
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
-                    <label>Co-pilot Name <input type="text" name="copilotName" id="copilotName"/></label>
+                    <label>Co-pilot Name <input type="text" name="copilotName" /></label>
                 </div>
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
-                    <label>Fuel Level (L) <input type="text" name="fuelLevel" id="fuelLevel"/></label> 
+                    <label>Fuel Level (L) <input type="text" name="fuelLevel"  /></label>
                 </div>
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
-                    <label>Cargo Mass (kg) <input type="text" name="cargoMass" id = "cargoMass"/></label>
+                    <label>Cargo Mass (kg) <input type="text" name="cargoMass"  /></label>
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
                 </div>
                 <button id="formSubmit">Submit</button>
             </form>
         </div>
         <div id="launchStatusCheck">
             <h2 id="launchStatus">Awaiting Information Before Launch</h2>
-            <div  id="faultyItems">
+            <div id="faultyItems">
                 <ol>
                     <li id="pilotStatus">Pilot Ready</li>
                     <li id="copilotStatus">Co-pilot Ready</li>
